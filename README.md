@@ -16,3 +16,8 @@ sudo apt upgrade
 sudo apt install gcc-11 g++-11 apt-file automake autoconf libtools make cmake 
 sudo apt-file update
 ```
+
+## Run GUI apps in WSL2
+```
+export DISPLAY=:0.0
+```
