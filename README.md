@@ -17,7 +17,20 @@ sudo apt install gcc-11 g++-11 apt-file automake autoconf libtools make cmake
 sudo apt-file update
 ```
 
-## Run GUI apps in WSL2
+## Enable GUI apps in WSL2
+1. Check Windows version.  
+Min required: Windows 10 version 22H2  
+How to check: type `winver` in windows shell or search.
+
+2. Update WSL  
+Using Administrator In Power Shell, run this command:  
+```
+wsl --update
+wsl --shutdown
+wsl -l -v
+```
+
+Not Needed anymore:
 ```
 export DISPLAY=:0.0
 ```
