@@ -30,6 +30,15 @@ wsl --shutdown
 wsl -l -v
 ```
 
+## Clone WSL2 Instance (Danger, use wsl --import instead)
+1. Copy source vhdx file from `C:\Users\Personal Komputer\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\ext4.vhdx`
+2. Paste vhdx file into target
+3. Import vhdx file `wsl --import <NewDistributionName> <InstallPath> <PathToVHDX>`
+4. Example: `wsl --import Ubuntu D:\WSL\MyLinux D:\Backups\ext4.vhdx`
+5. Verify `wsl --list --verbose`
+6. Set default `wsl --set-version <NewDistributionName> 2`
+7. 
+
 Not Needed anymore:
 ```
 export DISPLAY=:0.0
