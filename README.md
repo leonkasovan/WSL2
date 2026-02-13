@@ -45,4 +45,4 @@ export DISPLAY=:0.0
 ```
 
 Github Wiki:  
-Ubuntu 20.04 Build Environtments (Cross Compile) : here  
+Ubuntu 20.04 Build Environtments (Cross Compile) : https://github.com/leonkasovan/WSL2/wiki/Ubuntu-20.04-Build-Environtments-(Cross-Compile)  
